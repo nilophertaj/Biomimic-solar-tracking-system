@@ -1,0 +1,48 @@
+# Components List - Biomimic Sunflower Solar Tracker 🌻
+
+1. Arduino Uno – 2 units  
+   - Microcontroller: ATmega328P  
+   - Power: USB / 9V DC  
+   - I/O Pins: 14 Digital, 6 Analog  
+
+2. Servo Motor – 2 units  
+   - Model: SG90 or MG996R  
+   - Rotation: 180° or 360°  
+   - Torque: SG90 (~2.5 kg·cm), MG996R (~10 kg·cm)  
+   - Operating Voltage: 4.8V – 6V  
+
+3. Stepper Motor – 1 unit  
+   - Model: 28BYJ-48 or NEMA 17  
+   - Steps per revolution: 64 (28BYJ-48), 200 (NEMA 17)  
+   - Operating Voltage: 5V (28BYJ-48) or 12V (NEMA 17)  
+
+4. Stepper Motor Driver – 1 unit  
+   - For 28BYJ-48: ULN2003 driver board  
+   - For NEMA 17: A4988 or DRV8825 driver module  
+
+5. Solar Panel – 3 units  
+   - Output: 6V, 1W or 2W  
+   - Type: Mini/portable solar panels for embedded projects  
+
+6. LDR (Light Dependent Resistor) – 3 to 4 units  
+   - Used for detecting sunlight intensity and direction  
+
+7. Breadboard – 1 unit  
+   - Type: Full-size, ~830 tie-points  
+
+8. Jumper Wires (Male-to-Male) – 20+ pieces  
+   - Standard 20 cm length  
+
+9. Resistors – 3 to 4 units  
+   - Value: 10kΩ (for voltage divider with LDRs)  
+
+10. 3D Printed Frame / Flower Petals – 1 set  
+    - Petal-shaped design to hold solar panels  
+    - Custom mount for servo/stepper motors  
+
+11. Mount Stand (Neck & Base) – 1 unit  
+    - Material: 3D print, acrylic, or wood  
+    - Function: Vertical servo holder and base stability  
+
+12. Screws & Nuts – As required  
+    - Size: M3 bolts and nuts for mounting components securely  
