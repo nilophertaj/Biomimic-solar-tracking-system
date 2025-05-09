@@ -1,0 +1,29 @@
+#include <Servo.h>
+
+Servo horizontalServo;  // Horizontal servo motor
+Servo verticalServo;    // Vertical servo motor
+
+void setup() {
+  horizontalServo.attach(9);    // Attach horizontal servo to pin D9
+  verticalServo.attach(10);      // Attach vertical servo to pin D10
+
+  // Move both servos to the initial position
+  horizontalServo.write(45);     // Set horizontal servo to 45 degrees (middle of 0-90 range)
+  verticalServo.write(90);       // Set vertical servo to 90 degrees
+}
+
+void loop() {
+  // Move horizontal servo from 0 to 90 degrees
+  for (int pos = 0; pos <= 90; pos += 1) { 
+    horizontalServo.write(pos);  // Move horizontal servo
+    verticalServo.write(pos);    // Move vertical servo (adjust this if you want a different range)
+    delay(20);                   // Delay for smooth motion
+  }
+
+  // Move horizontal servo back from 90 to 0 degrees
+  for (int pos = 90; pos >= 0; pos -= 1) { 
+    horizontalServo.write(pos);  // Move horizontalservo
+verticalServo.write(pos);    // Move vertical servo
+    delay(20);                   // Delay for smooth motion
+  }
+}
